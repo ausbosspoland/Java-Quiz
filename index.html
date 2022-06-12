@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- This is the first step in making the document responsive but scaling the items to the screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Austin Poland challenge 4 quiz -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link for style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!-- Title of page -->
+    <title>Javascript Quiz</title>
+
+</head>
+
+<body>
+<!-- Link to the scores-->
+<a href="highscores.html">View Highscores</a>
+<!-- The wrapper -->
+<div id="wrapper">
+    <!-- Div for the timer -->
+    <div id="currentTime"></div>
+    <!-- Div for quiz content -->
+    <div id="questionsDiv">
+        <h1>Javascript Coding Quiz Challenge</h1>
+        <p>See if you can answer the Javascript coding questions within the time frame.
+            Be careful, incorrect answers will impact your score/time by 10 seconds.</p>
+            <ul id="choicesUl"></ul>
+            <!-- Button -->
+            <button id="startTime">Start The Quiz</button>
+    </div>
+
+</div>
+
+    <script src="quizquestions.js"></script>
+
+</body>
+
+</html>
