@@ -47,7 +47,7 @@ var holdInterval = 0;
 var penalty = 10;
 
 // creates new element
-var ulCreate = docuent.createElement("ul");
+var ulCreate = document.createElement("ul");
 
 // starts timer on button and shows countdown on screen
 timer.addEventListener("click", function() {
@@ -144,7 +144,7 @@ function allDone() {
         clearInterval(holdInterval);
         createP.textContent = "Your final score: " + timeRemaining;
 
-        questionsDiv.appendChild(createInput);
+        questionsDiv.appendChild(createP2);
     }
 
     // input
